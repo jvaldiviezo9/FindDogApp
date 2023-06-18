@@ -1,0 +1,136 @@
+.about {
+  width: 100%;
+  height: 500px;
+  background-color: #E8E6E6;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 100px;
+}
+
+.about__title {
+  width: 480px;
+  height: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.about__paragraph {
+  width: 612px;
+  height: 200px;
+  margin-top: 114px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.about__image {
+  width: 357px;
+  height: 357px;
+}
+
+.about__bg {
+  height: 91px;
+  margin-bottom: 0;
+  border-radius: 50% 50% 0 0;
+  background-color: #E8E6E6;
+}
+
+@media screen and (max-width: 1000px) {
+  .about {
+    height: 450px;
+  }
+
+  .about__information{
+    width: 300px;
+  }
+
+  .about__title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 0;
+  }
+
+  .about__paragraph {
+    width: 400px;
+    margin-top: 70px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .about__image {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    height: 400px;
+  }
+
+  .about__container {
+    max-width: 800px;
+    margin: 0 80px;
+  }
+
+  .about__title {
+    font-size: 26px;
+    line-height: 32px;
+    margin-top: 0;
+  }
+
+  .about__paragraph {
+    width: 280px;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .about__image {
+    width: 290px;
+    height: 290px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .about {
+    height: 650px;
+  }
+
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 50px;
+  }
+
+  .about__title {
+    margin-left: 10px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .about__paragraph {
+    text-align: center;
+    width: 280px;
+    height: 250px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .about__image {
+    width: 270px;
+    height: 270px;
+  }
+}

@@ -1,0 +1,148 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 100px 100px;
+}
+
+.main__information {
+  width: 292px;
+  height: 103px;
+}
+
+.main__title {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 54px;
+}
+
+.main__paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.main__button {
+  width: 129px;
+  height: 44px;
+  margin-top: 37px;
+  border-radius: 12px;
+  background-color: black;
+}
+
+.main__image {
+  width: 500px;
+  height: 550px;
+}
+
+.main__button-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    max-width: 1000px;
+    margin: 20px 90px;
+    height: 400px;
+  }
+
+  .main__title {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .main__paragraph {
+    text-align: center;
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .main__button {
+    margin-top: 15px;
+    margin-left: 80px;
+  }
+
+  .main__image {
+    width: 320px;
+    height: 380px;
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 20px 50px;
+    gap: 10px;
+  }
+
+  .main__title {
+    margin-top: 60px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .main__paragraph {
+    font-size: 16px;
+    line-height: 15px;
+  }
+
+  .main__button {
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .main__button-link {
+    font-size: 14px;
+  }
+
+  .main__image {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    height: 650px;
+  }
+
+  .main__title {
+    font-size: 32px;
+    line-height: 41px;
+    margin: 0;
+  }
+
+  .main__paragraph {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .main__button {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
+  .main__image {
+    width: 250px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+}
