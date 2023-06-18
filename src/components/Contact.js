@@ -3,8 +3,9 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-    <p className="contact__bg"></p>
+    <div className="contact__bg"></div>
     <section className="contact">
+    
       <div className="contact__container">
         <div className="contact__info">
           <h4 className="contact__title">Doggy</h4>
@@ -22,9 +23,9 @@ const Contact = () => {
             <p className="contact__data-email">aristh_design@some.com</p>
           </div>
           <div className="contact__data-container">
-            <img className="contact__data-linkedin" src="/images/contact__data-linkedin.svg"/>
-            <img className="contact__data-facebook" src="/images/contact__data-facebook.svg"/>
-            <img className="contact__data-twitter" src="/images/contact__data-twitter.svg"/>
+            <img className="contact__data-linkedin" src="/images/contact__data-linkedin.svg" alt="icon"/>
+            <img className="contact__data-facebook" src="/images/contact__data-facebook.svg" alt="icon"/>
+            <img className="contact__data-twitter" src="/images/contact__data-twitter.svg" alt="icon"/>
           </div>
         </div>
       </div>
