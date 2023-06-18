@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import CardContainer from "./CardContainer";
 
 const Explore = (props) => {
+  
   const dogInfo = props.dogInfo;
   const [dogResults, setDogResults] = useState([]);
   const [isFixed, setIsFixed] = useState(false);
