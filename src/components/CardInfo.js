@@ -10,6 +10,7 @@ const CardInfo = (props) => {
         <img src={dog.image.url} alt="" className="cards__image"/>
         <h4 className="cards__title">{dog.name}</h4>
         <p className="cards__description">{dog.life_span}</p>
+        <p className="cards__description">{dog.temperament}</p>
       </div>
     </>
   )

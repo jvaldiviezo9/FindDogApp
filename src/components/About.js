@@ -8,8 +8,7 @@ const About = () => {
       <div className="about__container">
         <div className="about__information">
           <h3 className="about__title">Datos curiosos sobre mi</h3>
-          <p className="about__paragraph">Párrafo. Haz clic aquí para agregar tu propio texto y editarlo. Es fácil. Haz clic en "Editar texto" o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir que los usuarios sepan más sobre ti.
-            Párrafo. Haz clic aquí para agregar tu propio texto y editarlo. Es fácil. Haz clic en "Editar texto" o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir que los usuarios sepan más sobre ti.
+          <p className="about__paragraph">Desde mi infancia, he sido un apasionado de los perros y siempre he tenido uno como compañero fiel. Creo firmemente que los perros son los mejores amigos del ser humano, y quiero transmitir al mundo el profundo cariño y amor que siento hacia estos maravillosos animales, a través de mi dedicación y compromiso en compartir esta pasión con todos.
           </p>
         </div>
         <img src="/images/about__image.png" alt="" className="about__image"/>

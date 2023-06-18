@@ -36,6 +36,7 @@ const WebApp = () => {
                 <li className="web__item">Nombre de la raza</li>
                 <li className="web__item">Imagen de la raza</li>
                 <li className="web__item">Esperanza de vida de la raza</li>
+                <li className="web__item">Temperamento de la raza</li>
               </ul>
             </div>
             <div className="web__image-container">
@@ -43,7 +44,7 @@ const WebApp = () => {
             </div>
           </div>
       </section>
-      
+
       <Explore dogInfo={dogInfo} setDogInfo={setDogInfo}/>
 
     </>

@@ -1,6 +1,6 @@
 .elements {
   max-width: 1440px;
-  margin: 0 100px;
+  margin: 0 auto;
 }
 
 .elements__title {
@@ -10,6 +10,8 @@
   line-height: 48px;
   font-weight: 400;
   margin-bottom: 47px;
+  margin-left: 60px;
+  margin-top: 60px;
 }
 
 .elements__text {
@@ -19,6 +21,7 @@
   font-weight: 400;
   line-height: 22px;
   margin-bottom: 63px;
+  margin-left: 60px;
 }
 
 .elements__card {
@@ -138,12 +141,14 @@
     text-align: center;
     margin-right: 0;
     margin-top: 50px;
+    margin-left: 25px;
   }
 
   .elements__text {
     text-align: center;
     width: 400px;
     font-size: 14px;
+    margin-left: 0;
   }
 
   .elements__card {

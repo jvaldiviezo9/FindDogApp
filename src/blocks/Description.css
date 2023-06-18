@@ -1,6 +1,7 @@
 .description {
-  width: 100%;
+  max-width: 1440px;
   height: 435px;
+  margin: 0 auto;
   background-color: #F0BC5E;
 }
 
@@ -8,9 +9,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1440px;
-  margin: 0 100px;
-  padding: 135px 0;
+  margin: 0 auto;
+  padding: 135px 60px;
 }
 
 .description__title {
@@ -31,7 +31,8 @@
 
 .description__bg {
   height: 91px;
-  margin-top: 0;
+  margin: 0 auto;
+  max-width: 1440px;
   border-radius: 0 0 50% 50%;
   background-color: #F0BC5E;
 }
