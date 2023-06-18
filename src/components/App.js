@@ -5,7 +5,6 @@ import Main from './Main';
 import Description from "./Description";
 import Elements from "./Elements";
 import About from "./About";
-import Board from "./Board";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import WebApp from "./WebApp";
@@ -24,7 +23,6 @@ function App() {
           <Description />
           <Elements />
           <About />
-          <Board />
         </Route>
         <Route path="/app">
           <WebApp />

@@ -5,7 +5,7 @@ const Contact = () => {
     <>
     <div className="contact__bg"></div>
     <section className="contact">
-    
+
       <div className="contact__container">
         <div className="contact__info">
           <h4 className="contact__title">Doggy</h4>
@@ -14,8 +14,8 @@ const Contact = () => {
         <div className="contact__data">
           <div className="contact__data-container">
             <p className="contact__data-title">Contact</p>
-            <p className="contact__data-address">Address</p>
-            <p className="contact__data-phone">Phone</p>
+            <p className="contact__data-address">Campeche, México</p>
+            <p className="contact__data-phone">96764646116</p>
           </div>
           <div className="contact__data-container">
             <p className="contact__data-title">E-mail</p>

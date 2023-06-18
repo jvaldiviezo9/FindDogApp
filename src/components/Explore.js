@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import CardContainer from "./CardContainer";
 
 const Explore = (props) => {
-  
+
   const dogInfo = props.dogInfo;
   const [dogResults, setDogResults] = useState([]);
   const [isFixed, setIsFixed] = useState(false);
@@ -23,7 +23,14 @@ const Explore = (props) => {
   const handleChange = (event) => {
     const search_arr = searchObjectsByName(dogInfo, event.target.value);
     setDogResults(search_arr);
+    console.log(search_arr)
   };
+
+  const handleButtonClick = (event) => {
+    const inputValue = event.target.previousElementSibling.value;
+    const search_arr = searchObjectsByName(dogInfo, inputValue);
+    setDogResults(search_arr);
+  }
 
   function searchObjectsByName(arr, search) {
     return arr.filter((obj) =>
@@ -45,7 +52,7 @@ const Explore = (props) => {
             type="text"
             className={"explore__input"}
           />
-          <button className="explore__button">Buscar</button>
+          <button onClick={handleButtonClick} className="explore__button">Buscar</button>
         </div>
       </section>
       <CardContainer dogResults={dogResults} />

@@ -2,15 +2,18 @@
   display: flex;
   justify-content: space-between;
   max-width: 1440px;
-  margin: 100px 100px;
+  margin: 100px auto;
 }
 
 .main__information {
-  width: 292px;
+  width: 350px;
   height: 103px;
+  padding: 0 60px;
 }
 
 .main__title {
+  width: 350px;
+  margin-bottom: 10px;
   font-size: 45px;
   font-weight: 500;
   line-height: 54px;
@@ -33,6 +36,7 @@
 .main__image {
   width: 500px;
   height: 550px;
+  margin-right: 60px;
 }
 
 .main__button-link {
@@ -53,6 +57,11 @@
     height: 400px;
   }
 
+  .main__information {
+    padding: 0;
+    margin-top: 100px;
+  }
+
   .main__title {
     font-size: 32px;
     line-height: 40px;
@@ -67,13 +76,13 @@
 
   .main__button {
     margin-top: 15px;
-    margin-left: 80px;
+    margin-left: 110px;
   }
 
   .main__image {
     width: 320px;
     height: 380px;
-
+    margin-right: 0
   }
 }
 
@@ -85,6 +94,11 @@
     max-width: 800px;
     margin: 20px 50px;
     gap: 10px;
+    height: 300px;
+  }
+
+  .main__information {
+    margin: 0;
   }
 
   .main__title {
@@ -132,11 +146,12 @@
   .main__paragraph {
     font-size: 16px;
     line-height: 19px;
+    margin-top: 10px;
   }
 
   .main__button {
-    margin-top: 10px;
-    margin-left: 100px;
+    margin-top: 20px;
+    margin-left: 130px;
   }
 
   .main__image {

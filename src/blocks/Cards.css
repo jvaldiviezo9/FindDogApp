@@ -8,12 +8,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 55px;
 }
 
 .cards__container-card {
   width: 350px;
-  height: 621px;
+  height: 580px;
   border: 1px solid black;
   border-radius: 10px;
   background-color: white;
@@ -21,11 +20,13 @@
 }
 
 .cards__image {
+  border-radius: 10px 10px 0 0;
   width: 350px;
   height: 376px;
 }
 
 .cards__title {
+  padding-top: 15px;
   text-align: center;
   font-size: 23px;
   font-weight: 700;
@@ -38,4 +39,10 @@
   font-weight: 400;
   line-height: 24px;
   margin: 12px 22px;
+}
+
+@media screen and (max-width: 500px) {
+  .cards {
+    margin-top: 50px;
+  }
 }
