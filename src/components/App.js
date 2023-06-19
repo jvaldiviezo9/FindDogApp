@@ -14,7 +14,6 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 function App() {
   return (
   <>
-
     <BrowserRouter>
       <Header />
       <Switch>
@@ -30,11 +29,7 @@ function App() {
       </Switch>
       <Contact />
       <Footer />
-
     </BrowserRouter>
-
-
-
   </>
   );
 }
